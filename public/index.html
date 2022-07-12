@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>HOME</title>
+</head>
+
+<body>
+    <div class="block">
+        <h1>Analyze Sentiment </h1>
+        <form action="/text" method="post">
+            <input id="text" name="text" placeholder="Enter text" cols="25"></input>
+            <button id="manual" name="manual">MANUAL</button>
+        </form>
+        <br>
+        <form action="/url" method="post">
+            <input id="url" name="url" placeholder="Enter url" cols="25"></input>
+            <button id="scratch" name="scratch">WEBSCRAPE</button>
+        </form>
+    </div>
+</body>
+
+</html>

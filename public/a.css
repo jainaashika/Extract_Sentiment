@@ -1,0 +1,26 @@
+*{
+background-color: #FFDAAF;
+}
+h1{
+    color:#7D1E6A;
+}
+
+form{
+    background-color: #EEB0B0;
+}
+.block
+{
+    background-color: #EEB0B0;
+    height: 50vh;
+    width: 40vw;
+    margin: 25vh 25vw;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+#manual
+{
+    margin-bottom: 10px;
+}
